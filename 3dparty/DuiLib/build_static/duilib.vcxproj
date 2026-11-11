@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B4A8DA2A-33FA-3598-A728-FEE2F6E16695}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>duilib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\跨平台\obs_live\3dparty\DuiLib\build_static\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">duilib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">duilib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\跨平台\obs_live\3dparty\DuiLib\build_static\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">duilib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">duilib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\跨平台\obs_live\3dparty\DuiLib\build_static\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">duilib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">duilib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\跨平台\obs_live\3dparty\DuiLib\build_static\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">duilib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">duilib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UILIB_EXPORTS;CMAKE_INTDIR="Debug";duilib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UILIB_EXPORTS;CMAKE_INTDIR=\"Debug\";duilib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;gdi32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/跨平台/obs_live/3dparty/DuiLib/build_static/Debug/duilib.lib</ImportLibrary>
+      <ProgramDataBaseFile>I:/跨平台/obs_live/3dparty/DuiLib/build_static/Debug/duilib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UILIB_EXPORTS;CMAKE_INTDIR="Release";duilib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UILIB_EXPORTS;CMAKE_INTDIR=\"Release\";duilib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;gdi32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/跨平台/obs_live/3dparty/DuiLib/build_static/Release/duilib.lib</ImportLibrary>
+      <ProgramDataBaseFile>I:/跨平台/obs_live/3dparty/DuiLib/build_static/Release/duilib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UILIB_EXPORTS;CMAKE_INTDIR="MinSizeRel";duilib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UILIB_EXPORTS;CMAKE_INTDIR=\"MinSizeRel\";duilib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;gdi32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/跨平台/obs_live/3dparty/DuiLib/build_static/MinSizeRel/duilib.lib</ImportLibrary>
+      <ProgramDataBaseFile>I:/跨平台/obs_live/3dparty/DuiLib/build_static/MinSizeRel/duilib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UILIB_EXPORTS;CMAKE_INTDIR="RelWithDebInfo";duilib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UILIB_EXPORTS;CMAKE_INTDIR=\"RelWithDebInfo\";duilib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>I:\跨平台\obs_live\3dparty\DuiLib;I:\跨平台\obs_live\3dparty\DuiLib\Control;I:\跨平台\obs_live\3dparty\DuiLib\Core;I:\跨平台\obs_live\3dparty\DuiLib\Layout;I:\跨平台\obs_live\3dparty\DuiLib\Utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;gdi32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>I:/跨平台/obs_live/3dparty/DuiLib/build_static/RelWithDebInfo/duilib.lib</ImportLibrary>
+      <ProgramDataBaseFile>I:/跨平台/obs_live/3dparty/DuiLib/build_static/RelWithDebInfo/duilib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\跨平台\obs_live\3dparty\DuiLib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule I:/跨平台/obs_live/3dparty/DuiLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/obs_live/3dparty/DuiLib -BI:/跨平台/obs_live/3dparty/DuiLib/build_static --check-stamp-file I:/跨平台/obs_live/3dparty/DuiLib/build_static/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeCXXCompiler.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeRCCompiler.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule I:/跨平台/obs_live/3dparty/DuiLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/obs_live/3dparty/DuiLib -BI:/跨平台/obs_live/3dparty/DuiLib/build_static --check-stamp-file I:/跨平台/obs_live/3dparty/DuiLib/build_static/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeCXXCompiler.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeRCCompiler.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule I:/跨平台/obs_live/3dparty/DuiLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/obs_live/3dparty/DuiLib -BI:/跨平台/obs_live/3dparty/DuiLib/build_static --check-stamp-file I:/跨平台/obs_live/3dparty/DuiLib/build_static/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeCXXCompiler.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeRCCompiler.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule I:/跨平台/obs_live/3dparty/DuiLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/跨平台/obs_live/3dparty/DuiLib -BI:/跨平台/obs_live/3dparty/DuiLib/build_static --check-stamp-file I:/跨平台/obs_live/3dparty/DuiLib/build_static/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeCXXCompiler.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeRCCompiler.cmake;I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\3.31.9\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIActiveX.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIAnimation.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIButton.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIColorPalette.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UICombo.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIComboBox.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIDateTime.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIEdit.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIFadeButton.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIFlash.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIGifAnim.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIGifAnimEx.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIGroupBox.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIHotKey.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIIPAddress.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIIPAddressEx.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UILabel.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIList.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIListEx.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UILoading.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIOption.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIPageControl.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIProgress.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIRichEdit.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIRing.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIRollText.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIScrollBar.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UISlider.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIText.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UITreeView.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIWebBrowser.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\CNodeUIBase.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\CNodeUIManager.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\ControlFactory.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIBase.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIContainer.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIControl.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIDlgBuilder.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIManager.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIMarkup.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIRender.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIResourceManager.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UIAnimationTabLayout.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UIChildLayout.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UIHorizontalLayout.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UITabLayout.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UITileLayout.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UIVerticalLayout.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\DPI.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\DragDropImpl.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\TrayIcon.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\UIDelegate.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\UIShadow.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\Utils.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\WinImplBase.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\unzip.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\StdAfx.cpp" />
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\UIlib.cpp" />
+    <ClInclude Include="I:\跨平台\obs_live\3dparty\DuiLib\UIlib.h" />
+    <ClInclude Include="I:\跨平台\obs_live\3dparty\DuiLib\StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="I:\跨平台\obs_live\3dparty\DuiLib\build_static\ZERO_CHECK.vcxproj">
+      <Project>{CB5904DB-91C2-3E11-A891-283B154D230A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

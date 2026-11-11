@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIActiveX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIColorPalette.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UICombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIDateTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIFadeButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIFlash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIGifAnim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIGifAnimEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIGroupBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIHotKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIIPAddress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIIPAddressEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UILabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIListEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UILoading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIPageControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIProgress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIRichEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIRing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIRollText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIScrollBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UISlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UITreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Control\UIWebBrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\CNodeUIBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\CNodeUIManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\ControlFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIDlgBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIMarkup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Core\UIResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UIAnimationTabLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UIChildLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UIHorizontalLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UITabLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UITileLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Layout\UIVerticalLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\DPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\DragDropImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\TrayIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\UIDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\UIShadow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\WinImplBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\Utils\unzip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\跨平台\obs_live\3dparty\DuiLib\UIlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="I:\跨平台\obs_live\3dparty\DuiLib\UIlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\跨平台\obs_live\3dparty\DuiLib\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\跨平台\obs_live\3dparty\DuiLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FAEACED4-E6CD-3F19-A14B-43A61F30264D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{60F8C4C2-28DC-3B0A-B210-52245E877C75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

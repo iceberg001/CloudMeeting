@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="I:\跨平台\obs_live\3dparty\DuiLib\build_static\CMakeFiles\c404abc1b09fd682eed15244511164db\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C769D839-50E2-32ED-ACDB-6016BD33A796}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
